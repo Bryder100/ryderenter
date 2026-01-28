@@ -72,13 +72,19 @@
 
         /* Header */
         header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
             padding: 2rem 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 2px solid rgba(0, 245, 255, 0.2);
             backdrop-filter: blur(10px);
+            background: rgba(10, 14, 39, 0.8);
             animation: slideDown 0.8s ease-out;
+            z-index: 1000;
         }
 
         @keyframes slideDown {
